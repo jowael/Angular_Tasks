@@ -1,0 +1,16 @@
+<section class="p-4 min-h-screen flex items-center justify-center">
+  <div class="flex flex-col items-center gap-8">
+    <figure class="border-4 border-red-500 rounded-lg">
+      <img [src]="imagesPaths[imageIndex]" alt="bg image" />
+    </figure>
+
+    <div
+      class="flex items-center gap-4 *:px-10 *:font-semibold *:py-2 *:bg-amber-100 *:rounded-full *:cursor-pointer *:hover:opacity-80 *:duration-300"
+    >
+      <button (click)="goNext()">Next</button>
+      <button (click)="goPrevious()">Prev</button>
+      <button (click)="startSliding()">Slide</button>
+      <button (click)="stopSliding()">Stop</button>
+    </div>
+  </div>
+</section>
