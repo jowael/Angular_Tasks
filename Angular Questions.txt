@@ -1,0 +1,21 @@
+Angular Questions
+
+0) whats bootsraping 
+
+1) whats more important and how to use these : 
+template , templateUrl , imports <- takes array
+
+2) what has more priority :
+styles (inline), styleUrl , styleUrls
+// only 1 between ( styleUrl , styleUrls )
+
+3) whats the diffrence between :
+  encapsulation: ViewEncapsulation (
+ .Emulated ,
+ .ShadowDom (seperates the component with its children ),
+ .None (makes it global) )
+
+4) whats interpolition  ans.  
+using {{}} to import properties from the TS into the HTML file
+or {{ 5 + 5 }} // an expression
+
