@@ -8,4 +8,6 @@ import { Child2 } from './components/child2/child2';
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
-export class App {}
+export class App {
+  title = 'this is open source track';
+}
